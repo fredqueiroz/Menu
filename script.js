@@ -8,7 +8,7 @@ for (i = 1; i <= buttons.length - 1; i++) {
     value2 = value2.replace('<li>', '<li class=\"spotli\"><a class=\"spota\" data-id=\"div' + i + '\" href=\"#\"><span class=\"filter-names\">');
     $("#buttons > input:nth-child(" + i + ")").wrap("<div id=\"div" + i + "\">");
 }
-
+// test
 value2 = value2.replace(/<\/li>/g, '</span></a></li>');
 $('#menu').html(value2);
 
