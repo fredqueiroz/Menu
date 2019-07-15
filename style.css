@@ -1,0 +1,288 @@
+.filtertitle {
+	font-family: 'Segoe UI';
+	color: var(--secondary-color);
+	font-weight: 500;
+}
+
+#myaccordionfilters h3 a span.fa.fa-angle-right {
+	margin-top:0px;
+}
+
+.buttonsicons {
+	display: none
+}
+
+.spota {
+	text-decoration: none !important;
+}
+
+.icons {
+	color: var(--primary-color);
+	font-size: 24px;
+	position: absolute;
+	top: 6px;
+	cursor: pointer;
+}
+
+.pagetitle {
+	color: var(--primary-color);
+	font-size: 24px;
+	line-height: 36px;
+	font-family: 'Segoe UI';
+	font-weight: 600;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+
+.logo {
+	width: 150px;
+	margin-left: 125px;
+}
+
+.buttons {
+	display: none;
+}
+
+.spota:hover {
+	color: var(--secondary-color);
+	text-decoration: none;
+}
+
+.filter-names {
+	font-size: 18px;
+	line-height: 50px;
+	color: var(--secondary-color);
+	position: relative;
+	left: 20px;
+	font-family: 'Segoe UI';
+	font-weight: 500;
+	top: -3px;
+	text-align: left;
+}
+
+.side-menu {
+	border-color: rgba(0, 0, 0, 0.7);
+	border-style: solid;
+	background-clip: padding-box;
+	border-width: 0px 0px 0px 0px;
+	font-family: 'Segoe UI';
+	position: fixed;
+	top: 87px;
+	
+	margin: 0;
+	padding: 0;
+	width: 0px;
+	bottom: 25px;
+	list-style-type: none;
+	background: var(--tertiary-color);
+	overflow: hidden;
+	z-index: 99999;
+	transition: width 0.8s;
+	overflow: hidden;
+}
+
+.menuleft {
+	left: 0px;
+}
+
+.filterright {
+	right: 0px;
+}
+
+.fa {
+	font-size: 24px;
+	min-width: 24px;
+	text-align: center;
+	color: var(--secondary-color);
+	position: relative;
+	line-height: 50px;
+}
+
+
+
+.spota {
+	text-decoration: none;
+	display: block;
+	font-size: 24px;
+	color: var(--secondary-color);
+	height: 50px;
+	margin-left: 20px;
+	white-space: nowrap;
+}
+
+.spotli {
+	width: 360px;
+}
+
+.spotli .spota {
+	margin-left: 26px;
+}
+
+.filter-names:hover {
+	color: black;
+}
+
+.spotli .spota .filter-names {
+	font-weight: 400;
+}
+
+.fa-angle-down:hover {
+	color: black;
+}
+
+.fa-angle-right:hover {
+	color: black;
+}
+
+.fa-angle-left:hover {
+	color: black;
+}
+
+.fa-angle-down {
+	position: absolute;
+	left: 380px;
+	margin-top: 7px;
+}
+
+.fa-angle-right {
+	position: absolute;
+	left: 380px;
+	margin-top: 7px;
+}
+
+.fa-angle-left {
+	position: absolute;
+	right: 320px;
+	margin-top: 7px;
+}
+
+#shadow {
+	position: fixed;
+	top: 0px;
+	
+	margin-top: 87px;
+	width: 0%;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-style: solid;
+	background-clip: padding-box;
+	border-width: 0px 0px 0px 0px;
+	transition: width 0.8s;
+	bottom: 25px;
+	z-index: 2;
+}
+
+.shadowmenu {
+	left: 0px;
+}
+
+.shadowfilter {
+	right: 0px;
+}
+
+h3 {
+	left: -25px;
+	text-decoration: none;
+}
+
+h3:hover {
+
+	text-decoration: none;
+}
+
+.accordionitems {
+	background-color: var(--tertiary-color);
+	border-color: var(--tertiary-color);
+}
+
+.HtmlTextArea a:visited,
+.HtmlTextArea a:active {
+	color: var(--tertiary-color);
+}
+
+.fa-home {
+	left: 50px;
+}
+
+.fa-bars {
+	left: 100px;
+}
+
+.fatimesmenu {
+	left: 100px;
+}
+
+.fatimesfilter {
+	right: 100px;
+}
+
+.fa-filter {
+	right: 100px;
+}
+
+.fa-redo-alt {
+	right: 50px;
+}
+
+#menu .spotli .spota .filter-names {
+	font-weight: 500;
+}
+
+#menu #myaccordion .spotli .spota .filter-names {
+	font-weight: 400;
+}
+
+#menu li a span {
+	left: 12px;
+}
+
+#menu #myaccordion li a span {
+	left: 21px;
+}
+
+#menu li a span span {
+	left: -23px;
+}
+
+#menu li {
+	padding: .5em .5em .5em .7em;
+margin-top: 5px;
+}
+
+#menu #myaccordion li {
+	padding: .0em .0em .0em .0em;
+}
+
+.ui-accordion .ui-accordion-header, div.accordionitems.ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active
+{
+background: var(--tertiary-color);
+border-color: var(--tertiary-color);
+}
+
+#scroll::-webkit-scrollbar-track, #scrollfilters::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+}
+
+#scroll::-webkit-scrollbar, #scrollfilters::-webkit-scrollbar
+{
+	width: 10px;
+}
+
+#scroll::-webkit-scrollbar-thumb, #scrollfilters::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,left bottom, left top,
+									   color-stop(0.44, rgb(102,102,102)),
+									   color-stop(0.72, rgb(102,102,102)),
+									   color-stop(0.86, rgb(102,102,102)));
+}
+
+#scroll, #scrollfilters
+{
+	height: 100%;
+	width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
