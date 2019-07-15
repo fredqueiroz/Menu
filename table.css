@@ -1,0 +1,7 @@
+div[name='frozenRowsContainer'] {background-color: #fde1b9; border-radius: 10px 10px 0px 0px; border: 1px solid black; width:99.3% !important;} 
+div[name='canvasContainer'] { border: 1px solid black; width:99.3% !important;} 
+.cell-text.sf-element-text-overflow-check{line-height:30px;}
+div[name='contentContainer'] {width:99.3% !important;}
+
+.sfc-default-theme .sf-element-legend .sf-element-sub-item .sf-element-text-box.sfpc-markable:hover{
+border-style:Dotted;border-bottom-width:0px !important;border-bottom-color:rgba(0,0,0,0.4509804);}
