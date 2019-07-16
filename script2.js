@@ -253,11 +253,3 @@ $("#myaccordion,#myaccordionfilters").accordion({
 $('.VerticalScrollbarContainer.sf-element.sf-element-scroll-bar.sfpc-right').attr('style', 'display: none');
 $('.HorizontalScrollbarContainer.sf-element.sf-element-scroll-bar.sfpc-bottom').attr('style', 'display: none');
 
-var i = 0;
-for (i = 0; i <= document.getElementsByClassName("StyledScrollbar").length - 1; i++)
-{
-	if (document.getElementsByClassName("StyledScrollbar")[i].innerHTML.includes("<span id=\"cssstyle\"></span>"))
-	{
-		document.getElementsByClassName("StyledScrollbar")[i].style.height = "36px";
-	}
-}
