@@ -254,10 +254,18 @@ $('.VerticalScrollbarContainer.sf-element.sf-element-scroll-bar.sfpc-right').att
 $('.HorizontalScrollbarContainer.sf-element.sf-element-scroll-bar.sfpc-bottom').attr('style', 'display: none');
 
 var i = 0;
-for (i = 0; i <= document.getElementsByClassName("StyledScrollbar").length - 1; i++)
+for (i = 0; i < document.getElementsByClassName("StyledScrollbar").length; i++)
 {
 	if (document.getElementsByClassName("StyledScrollbar")[i].innerHTML.includes("<span id=\"cssstyle\"></span>"))
 	{
 		document.getElementsByClassName("StyledScrollbar")[i].style.height = "36px";
+	}
+}
+
+for (i = 0; i < document.getElementsByClassName("HtmlTextArea").length; i++)
+{
+	if (document.getElementsByClassName("HtmlTextArea")[i].innerHTML.includes("<span id=\"cssstyle\"></span>"))
+	{
+		document.getElementsByClassName("HtmlTextArea")[i].style.height = "36px";
 	}
 }
