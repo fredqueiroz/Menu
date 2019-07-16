@@ -269,3 +269,5 @@ for (i = 0; i < document.getElementsByClassName("HtmlTextArea").length; i++)
 		document.getElementsByClassName("HtmlTextArea")[i].style.height = "36px";
 	}
 }
+
+var a12b = 1;
