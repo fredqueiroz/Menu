@@ -252,5 +252,4 @@ $("#myaccordion,#myaccordionfilters").accordion({
 
 $('.VerticalScrollbarContainer.sf-element.sf-element-scroll-bar.sfpc-right').attr('style', 'display: none');
 $('.HorizontalScrollbarContainer.sf-element.sf-element-scroll-bar.sfpc-bottom').attr('style', 'display: none');
-$('.HtmlTextArea.sf-focusable .StyledScrollbar').attr('style', 'height: 36px');
-$('.sf-element.sf-element-visual-content.sfc-text-area .StyledScrollbar').attr('style', 'height: 36px');
+
